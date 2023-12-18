@@ -18,9 +18,9 @@ video: true
 ports:
   8096/tcp: 8096
   8920/tcp: null
-  1900/udp: 1900
-  5353/udp: 5353
-  32469/tcp: 32469
+  1900/udp: null
+  5353/udp: null
+  32469/tcp: null
 ports_description:
   8096/tcp: Jellyfin web and media port
   8920/tcp: Jellyfin TLS port, must be configured in the server first
