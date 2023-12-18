@@ -19,4 +19,4 @@ its data will not be deleted when add-on is uninstalled, and must be deleted
 manually. This is intentional.
 
 
-# DLNA v2
+# DLNA v3

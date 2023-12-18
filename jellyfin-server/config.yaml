@@ -28,3 +28,4 @@ ports_description:
   7359/udp: Jellyfin DLNA port (discover server)
   32469/tcp: Jellyfin DLNA port
 image: ghcr.io/mdvorak/jellyfin-server-{arch}
+host_network: true
