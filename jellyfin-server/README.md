@@ -17,3 +17,6 @@ Server is exposed on port `8096`.
 Configuration and caches are stored on `share` (not in config), therefore
 its data will not be deleted when add-on is uninstalled, and must be deleted
 manually. This is intentional.
+
+
+# DLNA v2
