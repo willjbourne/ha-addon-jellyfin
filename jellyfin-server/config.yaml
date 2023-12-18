@@ -19,12 +19,12 @@ ports:
   8096/tcp: 8096
   8920/tcp: null
   1900/udp: null
-  5353/udp: null
+  7359/udp: null
   32469/tcp: null
 ports_description:
   8096/tcp: Jellyfin web and media port
   8920/tcp: Jellyfin TLS port, must be configured in the server first
-  1900/udp: Jellyfin DLNA port
-  5353/udp: Jellyfin Bonjour port
+  1900/udp: Jellyfin DLNA port (discover clients)
+  7359/udp: Jellyfin DLNA port (discover server)
   32469/tcp: Jellyfin DLNA port
 image: ghcr.io/mdvorak/jellyfin-server-{arch}
